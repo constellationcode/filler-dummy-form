@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "Form Filler Dummy",
+    "version": "1.0",
+    "description": "A simple form filler extension for fill input fields with dummy data.",
+    "permissions": [
+      "activeTab",
+      "scripting"
+    ],
+    "action": {
+      "default_popup": "fillScripting.html",
+      "default_icon": "nekoDans.png"
+    },
+    "icons": {
+      "48": "nekoDans.png"
+    }
+  }
